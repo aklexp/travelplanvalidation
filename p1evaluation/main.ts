@@ -56,7 +56,7 @@ form.addEventListener('submit',(event)=>{
 
     const courseObj = new Filter(plan);
     if(!validate(courseObj)){
-        alert('Please enter something first to searchss');
+        alert('Please enter something first to search');
         return;
     }
     console.log(courseObj)
